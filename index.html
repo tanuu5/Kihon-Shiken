@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>基本情報技術者試験 かんたん模擬テスト</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>基本情報技術者試験 かんたん模擬テスト</h1>
+        <p class="warning">注意！この問題はChatGPT-4により生成されているため、間違いが含まれている可能性があります。</p>
+        <p class="info">10問の問題をランダムに出題します。<br>「答えを確認」ボタンを押すと、あなたの回答が正解か不正解かを表示します。<br>正解率が6割以上なら合格です。</p>
+        <form id="quiz">
+            <!-- JavaScriptで動的に問題がここに追加される -->
+            <button type="button" onclick="checkAnswers()">答えを確認</button>
+        </form>
+        <div class="result">
+            <p>合計正解数: <span id="correctCount">0</span> / 10</p>
+            <p id="passOrFail"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

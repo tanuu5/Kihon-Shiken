@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.feedback {
+    color: red;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.warning {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.explanation {
+    display: none;
+    font-style: italic;
+    background-color: #f2f2f2;  /* 背景色を追加 */
+    padding: 5px;  /* パディングを追加 */
+    font-size: 0.9em;  /* 文字サイズを少し小さく */
+    font-weight: bold;  /* 太字に */
+    margin-top: 10px;
+}
+
+input:focus, button:focus {
+    outline: 2px solid #4a90e2;  /* 例として青色のアウトラインを追加 */
+}
+
+.info {
+    background-color: #eef5ff;  /* 明るい青色の背景 */
+    padding: 10px;  /* パディングを追加 */
+    border-radius: 5px;  /* 角を丸くする */
+    font-size: 1.1em;  /* 文字サイズをやや大きく */
+    margin-bottom: 20px;  /* 下の要素との間隔をとる */
+}
