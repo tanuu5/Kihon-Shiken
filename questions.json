@@ -238,5 +238,119 @@
     "choices": ["SWOT分析", "PEST分析", "Five Forces分析", "Blue Ocean戦略"],
     "answer": "SWOT分析",
     "explanation": "SWOT分析は、組織の強み・弱み・機会・脅威を整理・分析する手法です。"
+  },
+  {
+    "question": "企業が競争優位を獲得するための長期的な計画や方針を何というか？",
+    "choices": ["ミッション", "ビジョン", "ストラテジー", "オペレーション"],
+    "answer": "ストラテジー",
+    "explanation": "ストラテジーは、企業が競争優位を獲得・維持するための長期的な計画や方針を指します。"
+  },
+  {
+    "question": "低コストでの生産と大量生産を通じて市場を獲得する戦略は？",
+    "choices": ["差別化戦略", "コストリーダーシップ戦略", "集中戦略", "ブルーオーシャン戦略"],
+    "answer": "コストリーダーシップ戦略",
+    "explanation": "コストリーダーシップ戦略は、低コストでの生産と大量生産を通じて市場を獲得する戦略です。"
+  },
+  {
+    "question": "競合他社とは異なる独自の価値提供を目指す戦略は？",
+    "choices": ["差別化戦略", "コストリーダーシップ戦略", "集中戦略", "ブルーオーシャン戦略"],
+    "answer": "差別化戦略",
+    "explanation": "差別化戦略は、競合他社とは異なる独自の価値を提供することを目指す戦略です。"
+  },
+  {
+    "question": "特定の市場セグメントやニッチ市場に特化して、その市場でのリーダーシップを目指す戦略は？",
+    "choices": ["差別化戦略", "コストリーダーシップ戦略", "集中戦略", "ブルーオーシャン戦略"],
+    "answer": "集中戦略",
+    "explanation": "集中戦略は、特定の市場セグメントやニッチ市場に特化してその市場でのリーダーシップを目指す戦略です。"
+  },
+  {
+    "question": "競合の少ない新しい市場を創出し、その市場でのリーダーシップを獲得する戦略は？",
+    "choices": ["差別化戦略", "コストリーダーシップ戦略", "集中戦略", "ブルーオーシャン戦略"],
+    "answer": "ブルーオーシャン戦略",
+    "explanation": "ブルーオーシャン戦略は、競合の少ない新しい市場を創出し、その市場でのリーダーシップを獲得する戦略です。"
+  },
+  {
+    "question": "戦略的に組織の資源を最も効果的に使える事業領域や市場を特定するための分析手法は？",
+    "choices": ["SWOT分析", "BCGマトリクス", "PEST分析", "Five Forces分析"],
+    "answer": "BCGマトリクス",
+    "explanation": "BCGマトリクスは、事業領域や市場の成長率と市場シェアを基に、組織の資源の配分を考慮する分析手法です。"
+  },
+  {
+    "question": "業界の競争状態を分析するための5つの要因を用いた分析手法は？",
+    "choices": ["SWOT分析", "BCGマトリクス", "PEST分析", "Five Forces分析"],
+    "answer": "Five Forces分析",
+    "explanation": "Five Forces分析は、業界の競争状態を5つの要因（競争の激しさ、新規参入の脅威、代替品の脅威、購買者の交渉力、供給者の交渉力）を用いて分析する手法です。"
+  },
+  {
+    "question": "組織の外部環境を分析するために、政治、経済、社会、技術の4つの要因を考慮する分析手法は？",
+    "choices": ["SWOT分析", "BCGマトリクス", "PEST分析", "Five Forces分析"],
+    "answer": "PEST分析",
+    "explanation": "PEST分析は、組織の外部環境を政治、経済、社会、技術の4つの要因を基に分析する手法です。"
+  },
+  {
+    "question": "戦略を実際の業務やプロジェクトに落とし込む中期的な計画を何というか？",
+    "choices": ["オペレーショナルプラン", "ストラテジックプラン", "タクティカルプラン", "ビジネスコンティニュアンスプラン"],
+    "answer": "タクティカルプラン",
+    "explanation": "タクティカルプランは、戦略を実際の業務やプロジェクトに落とし込むための中期的な計画です。"
+  },
+  {
+    "question": "クラウドコンピューティングのモデルで、基盤（インフラ）のみを提供され、その上でのOSやミドルウェアの選定、設定をユーザーが行うサービスは何か？",
+    "choices": ["IaaS", "PaaS", "SaaS", "FaaS"],
+    "answer": "IaaS",
+    "explanation": "IaaS (Infrastructure as a Service) は、基盤となるインフラストラクチャを提供するサービスモデルです。"
+  },
+  {
+    "question": "非同期通信を行い、ページ全体をリロードせずに部分的な更新を可能とするWeb技術は何か？",
+    "choices": ["HTML", "CSS", "AJAX", "PHP"],
+    "answer": "AJAX",
+    "explanation": "AJAX (Asynchronous JavaScript and XML) は、ページのリロードなしで非同期にデータのやりとりを行う技術です。"
+  },
+  {
+    "question": "バーチャルリアルティーを利用した仮想空間にユーザーが没入する技術は何と呼ばれるか？",
+    "choices": ["IoT", "VR", "AR", "MR"],
+    "answer": "VR",
+    "explanation": "VR (Virtual Reality) は、仮想空間にユーザーが完全に没入する技術です。"
+  },
+  {
+    "question": "量子ビットを利用して、従来のコンピューターより高速な計算を実現するコンピューターは？",
+    "choices": ["Neural Computer", "Quantum Computer", "Optical Computer", "Binary Computer"],
+    "answer": "Quantum Computer",
+    "explanation": "量子コンピューターは、量子ビットを用いて非常に高速な計算を行うことができるコンピューターです。"
+  },
+  {
+    "question": "セキュアなWebページへの接続時に使用されるプロトコルは？",
+    "choices": ["FTP", "HTTP", "HTTPS", "SMTP"],
+    "answer": "HTTPS",
+    "explanation": "HTTPS (Hyper Text Transfer Protocol Secure) は、SSL/TLSを使用して通信内容を暗号化するWebプロトコルです。"
+  },
+  {
+    "question": "コンピューターネットワークにおいて、複数のネットワークを接続する装置は何と呼ばれるか？",
+    "choices": ["Router", "Switch", "Hub", "Bridge"],
+    "answer": "Router",
+    "explanation": "ルーターは、異なるネットワーク同士を接続するための装置です。"
+  },
+  {
+    "question": "GPUは主に何の処理を担当するコンピューターのコンポーネントか？",
+    "choices": ["Audio Processing", "Graphical Processing", "Logical Processing", "Network Processing"],
+    "answer": "Graphical Processing",
+    "explanation": "GPU (Graphics Processing Unit) は、主にグラフィック処理を担当するコンピューターのコンポーネントです。"
+  },
+  {
+    "question": "オープンソースのオペレーティングシステムであり、Linuxカーネルをベースとしているものは？",
+    "choices": ["Windows", "macOS", "Ubuntu", "iOS"],
+    "answer": "Ubuntu",
+    "explanation": "Ubuntuは、オープンソースのオペレーティングシステムで、Linuxカーネルをベースとしています。"
+  },
+  {
+    "question": "「Python」とは、何の種類の言語か？",
+    "choices": ["Markup Language", "Programming Language", "Scripting Language", "Query Language"],
+    "answer": "Programming Language",
+    "explanation": "Pythonは、汎用の高レベルプログラム言語です。"
+  },
+  {
+    "question": "ビッグデータの処理や分析に広く用いられるオープンソースのフレームワークは？",
+    "choices": ["Node.js", "Hadoop", "Angular", "TensorFlow"],
+    "answer": "Hadoop",
+    "explanation": "Hadoopは、ビッグデータの分散処理を行うためのオープンソースのフレームワークです。"
   }
 ]
