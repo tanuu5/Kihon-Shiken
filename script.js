@@ -1,4 +1,25 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+// Timer logic
+let timer = 15 * 60;  // 15 minutes in seconds
+const timerDisplay = document.getElementById('timeLeft');
+
+const updateTimerDisplay = () => {
+    const minutes = Math.floor(timer / 60);
+    const seconds = timer % 60;
+    timerDisplay.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+}
+
+const timerInterval = setInterval(() => {
+    if (timer <= 0) {
+        clearInterval(timerInterval);
+        checkAnswers();  // Automatically check the answers when the time is up
+    } else {
+        timer--;
+        updateTimerDisplay();
+    }
+}, 1000);
+
     fetch('questions.json')
         .then(response => response.json())
         .then(data => {
